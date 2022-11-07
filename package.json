@@ -1,0 +1,21 @@
+{
+  "name": "npm_native_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MafistoPL/npm_native_module.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/MafistoPL/npm_native_module/issues"
+  },
+  "homepage": "https://github.com/MafistoPL/npm_native_module#readme"
+}

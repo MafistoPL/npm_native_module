@@ -28,7 +28,7 @@ static void Method(const v8::FunctionCallbackInfo<v8::Value>& info) {
 
   Isolate* isolate = info.GetIsolate();
     info.GetReturnValue().Set(String::NewFromUtf8(
-        isolate, "Hello from cpp code! Native context-aware module.").ToLocalChecked());
+        isolate, "Hello from cpp code! Hello there! Native context-aware module.").ToLocalChecked());
 }
 
 // Initialize this addon to be context-aware.

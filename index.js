@@ -1,5 +1,5 @@
 const addon = require('./build/Release/addon');
 
-console.log(addon.method());
+console.log("Native module loaded");
 
 module.exports = addon;
